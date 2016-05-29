@@ -17,6 +17,10 @@
 
 <resources>
 
+    <style name="Theme.Bacon" parent="App.Theme">
+        <item name="android:windowExitTransition">@transition/grid_exit</item>
+    </style>
+
     <style name="Theme.Bacon.Detail">
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
