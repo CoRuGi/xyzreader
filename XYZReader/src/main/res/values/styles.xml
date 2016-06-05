@@ -23,6 +23,10 @@
         <item name="colorAccent">@color/theme_accent</item>
     </style>
 
+    <style name="BigTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">@dimen/abc_text_size_display_2_material</item>
+    </style>
+
     <style name="Theme.Bacon" parent="App.Theme">
 
     </style>

@@ -15,7 +15,7 @@
             app:collapsedTitleTextAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
             app:contentScrim="?attr/colorPrimary"
             app:expandedTitleMarginStart="@dimen/collapsing_toolbar_expanded_title_margin_start"
-            app:expandedTitleTextAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
+            app:expandedTitleTextAppearance="@style/BigTitle"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <android.support.v7.widget.Toolbar
@@ -23,17 +23,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="?actionBarSize"
                 android:layout_gravity="center_horizontal"
-                android:contentInsetLeft="@dimen/list_toolbar_side_margin"
-                android:contentInsetStart="@dimen/list_toolbar_side_margin"
                 app:layout_collapseMode="pin"
                 app:theme="@style/Theme.Bacon">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/app_name"
-                    android:src="@drawable/logo"
-                    app:layout_scrollFlags="scroll|enterAlwaysCollapsed" />
 
             </android.support.v7.widget.Toolbar>
 
